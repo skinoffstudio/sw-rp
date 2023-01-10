@@ -1,0 +1,9 @@
+{
+    "providers":
+    [
+        {"ascent":-32768,"chars":[""],"file":"custom/pixel_nosplit.png","height":-3,"type":"bitmap"},
+        {"ascent":-43,"chars":["𐘃"],"file":"custom/hotbar/hotbar7.png","height":22,"type":"bitmap"},
+        {"ascent":-43,"chars":["ᚠ"],"file":"custom/hotbar/hotbar3.png","height":22,"type":"bitmap"},
+        {"ascent":10,"chars":["ᛝ"],"file":"custom/vignette/blood.png","height":9999,"type":"bitmap"}
+    ]
+}

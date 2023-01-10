@@ -1,0 +1,33 @@
+{
+    "lightsabers.strike": {
+        "sounds": [
+            "lightsabers/strike_01",
+            "lightsabers/strike_02"
+        ]
+    },
+
+    "lightsabers.move": {
+        "sounds": [
+            "lightsabers/move_01",
+            "lightsabers/move_02"
+        ]
+    },
+
+    "lightsabers.hit": {
+        "sounds": [
+            "lightsabers/hit_01"
+        ]
+    },
+
+    "lightsabers.enable": {
+        "sounds": [
+            "lightsabers/enable"
+        ]
+    },
+
+    "lightsabers.disable": {
+        "sounds": [
+            "lightsabers/disable"
+        ]
+    }
+}
