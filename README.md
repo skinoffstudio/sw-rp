@@ -1,2 +1,0 @@
-# texturepack
-main texturepack
