@@ -1,8 +1,0 @@
-{
-    "providers":
-    [
-        {"ascent":-32768,"chars":[""],"file":"custom/font/pixel_nosplit.png","height":-3,"type":"bitmap"},
-        {"ascent":-43,"chars":["𐘃"],"file":"custom/font/hotbar/hotbar/hotbar7.png","height":22,"type":"bitmap"},
-        {"ascent":-43,"chars":["ᚠ"],"file":"custom/font/hotbar/hotbar/hotbar3.png","height":22,"type":"bitmap"}
-    ]
-}
