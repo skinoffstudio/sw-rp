@@ -11,4 +11,9 @@ jobs:
         type: 'zip'
         filename: 'sw-resourcepack.zip'
         exclusions: '*.git*'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        artifacts: "sw-resourcepack.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
       
