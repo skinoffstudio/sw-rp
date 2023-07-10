@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:custom/lightsaber/quigon_lightsaber",
+  "textures": {
+    "1": "minecraft:custom/model/lightsaber/quigon_lightsaber_off"
+  }
+}

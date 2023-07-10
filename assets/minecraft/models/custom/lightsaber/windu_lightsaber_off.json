@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:custom/lightsaber/windu_lightsaber",
+  "textures": {
+    "1": "minecraft:custom/model/lightsaber/windu_lightsaber_off"
+  }
+}
