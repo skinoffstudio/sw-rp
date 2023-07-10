@@ -11,7 +11,7 @@ jobs:
       with:
         type: 'zip'
         filename: 'sw-rp.zip'
-        exclusions: '*.git*'
+        exclusions: '*.git* LICENSE'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
