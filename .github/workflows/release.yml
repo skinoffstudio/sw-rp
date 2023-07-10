@@ -17,6 +17,12 @@ jobs:
         contents: |
             ${{ steps.vars.outputs.sha_short }}
         write-mode: overwrite
+    - uses: LSVH/gha-replace-placeholders@v1
+      with:
+        include: |
+         pack.mcmeta
+        placeholders: |
+          %%VERSION%%=${{ steps.vars.outputs.sha_short }}
     - name: Zip Release
       uses: thedoctor0/zip-release@0.7.1
       with:
