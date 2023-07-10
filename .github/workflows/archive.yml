@@ -5,13 +5,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: dev-drprasad/delete-tag-and-release@v1.0
-    - name: Delete Latest
+    - uses: actions/checkout@master
+    - name: Delete tag and release
+      uses: dev-drprasad/delete-tag-and-release@v1.0
       with:
         tag_name: "latest"
         github_token: ${{ secrets.GITHUB_TOKEN }}
-    - uses: actions/checkout@master
-    - name: Archive Recourcepack
+    - name: Zip Release
       uses: thedoctor0/zip-release@0.7.1
       with:
         type: 'zip'
