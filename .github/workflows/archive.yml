@@ -1,8 +1,5 @@
 name: Create Archive
-on: 
-  push:
-    tags:
-    - '*'
+on: [push]
     
 jobs:
   build:
@@ -19,5 +16,6 @@ jobs:
       uses: ncipollo/release-action@v1.12.0
       with:
         artifacts: "sw-resourcepack.zip"
+        tag: "latest"
         token: ${{ secrets.GITHUB_TOKEN }}
       
