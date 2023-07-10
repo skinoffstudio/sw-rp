@@ -6,14 +6,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Get current date
-      id: date
-      run: echo "::set-output name=date::$(date +'%y%m%d-%H%M')"
+    - name: Declare some variables
+      id: vars
+      shell: bash
+      run: |
+        echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
     - uses: DamianReeves/write-file-action@master
       with:
         path: version
         contents: |
-            ${{ steps.date.outputs.date }}
+            ${{ steps.vars.outputs.sha_short }}
         write-mode: overwrite
     - name: Zip Release
       uses: thedoctor0/zip-release@0.7.1
