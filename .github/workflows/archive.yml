@@ -11,3 +11,4 @@ jobs:
         type: 'zip'
         filename: 'sw-resourcepack.zip'
         exclusions: '*.git*'
+      
