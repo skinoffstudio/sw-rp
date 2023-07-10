@@ -6,6 +6,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Generate release tag
+      id: generate_release_tag
+      uses: amitsingh-007/next-release-tag@v4.0.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        tag_prefix: 'v'
+        tag_template: 'yy.mm.i'
+    - uses: DamianReeves/write-file-action@master
+      with:
+        path: .version
+        contents: |
+            ${{ steps.generate_release_tag.outputs.next_release_tag }}
+        write-mode: overwrite
     - name: Zip Release
       uses: thedoctor0/zip-release@0.7.1
       with:
@@ -15,7 +28,7 @@ jobs:
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
-        artifacts: "sw-rp.zip"
+        artifacts: "sw-rp.zip, .version"
         tag: latest
         allowUpdates: true
         draft: false
