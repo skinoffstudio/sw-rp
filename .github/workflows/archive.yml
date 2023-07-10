@@ -12,6 +12,10 @@ jobs:
         type: 'zip'
         filename: 'sw-resourcepack.zip'
         exclusions: '*.git*'
+    - uses: dev-drprasad/delete-tag-and-release@v1.0
+      with:
+        tag_name: "latest"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
