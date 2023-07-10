@@ -12,11 +12,12 @@ jobs:
         type: 'zip'
         filename: 'sw-rp.zip'
         exclusions: '*.git*'
-    - uses: dev-drprasad/delete-tag-and-release@v1.0
+    - uses: dev-drprasad/delete-older-releases@v0.2
       with:
-        tag_name: latest
-        delete_release: false
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        keep_latest: 0
+        delete_tags: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
