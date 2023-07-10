@@ -12,18 +12,12 @@ jobs:
         type: 'zip'
         filename: 'sw-rp.zip'
         exclusions: '*.git*'
-    - name: Delete Older Releases
-      uses: dev-drprasad/delete-older-releases@v0.2.1
-      with:
-        keep_latest: 0
-        delete_tags: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
         artifacts: "sw-rp.zip"
         tag: latest
+        allowUpdates: true
         draft: false
         makeLatest: true
         token: ${{ secrets.GITHUB_TOKEN }}
