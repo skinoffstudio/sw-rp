@@ -22,5 +22,7 @@ jobs:
       with:
         artifacts: "sw-resourcepack.zip"
         tag: "latest"
+        draft: false
+        makeLatest: true
         token: ${{ secrets.GITHUB_TOKEN }}
       
