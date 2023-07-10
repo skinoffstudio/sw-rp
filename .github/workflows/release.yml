@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: DamianReeves/write-file-action@master
       with:
-        path: .version
+        path: version.txt
         contents: |
             ${{ github.event.repository.updated_at }}
         write-mode: overwrite
