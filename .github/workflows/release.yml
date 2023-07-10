@@ -12,18 +12,15 @@ jobs:
         type: 'zip'
         filename: 'sw-rp.zip'
         exclusions: '*.git*'
-    - name: Generate release tag
-      id: generate_release_tag
-      uses: amitsingh-007/next-release-tag@v4.0.0
+    - uses: dev-drprasad/delete-tag-and-release@v1.0 # PRERELEASE is v1.0 and can also be used to test and give us feedback
       with:
+        tag_name: latest
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        tag_prefix: 'v'
-        tag_template: 'yy.mm.i'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
         artifacts: "sw-rp.zip"
-        tag: ${{ steps.generate_release_tag.outputs.next_release_tag }}
+        tag: latest
         draft: false
         makeLatest: true
         token: ${{ secrets.GITHUB_TOKEN }}
