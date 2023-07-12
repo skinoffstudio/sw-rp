@@ -2,8 +2,7 @@
 	"credit": "By Cheharka",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "lightsabers/qrzp",
-		"particle": "lightsabers/qrzp"
+		"0": "item/custom/lightsaber/qrzp"
 	},
 	"elements": [
 		{
