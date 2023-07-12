@@ -1,17 +1,4 @@
 {
-    "lightsabers.move": {
-        "sounds": [
-            "lightsaber/move_01",
-            "lightsaber/move_02"
-        ]
-    },
-
-    "lightsabers.hit": {
-        "sounds": [
-            "lightsaber/hit_01"
-        ]
-    },
-
     "lightsabers.enable": {
         "sounds": [
             "lightsaber/enable"
@@ -23,9 +10,31 @@
             "lightsaber/disable"
         ]
     },
+
+    "lightsabers.hit": {
+        "sounds": [
+            "lightsaber/hit_01"
+        ]
+    },
+
+    "lightsabers.crit": {
+        "sounds": [
+            "lightsaber/crit_01",
+            "lightsaber/crit_02",
+            "lightsaber/crit_03"
+        ]
+    },
+
+    "lightsabers.move": {
+        "sounds": [
+            "lightsaber/move_01",
+            "lightsaber/move_02"
+        ]
+    },
+
     "lightsaber.qwartz.all": {
         "sounds": [
-            "lightsaber/halapeneu"
+            "lightsaber/qwartz/halapeneu"
         ]
     }
 }
