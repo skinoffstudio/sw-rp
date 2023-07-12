@@ -32,7 +32,7 @@
         ]
     },
 
-    "lightsaber.qwartz.all": {
+    "lightsaber.qwartz.common": {
         "sounds": [
             "lightsaber/qwartz/halapeneu"
         ]
