@@ -1,0 +1,10 @@
+  {
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/coal"
+    },
+  
+    "overrides": [
+      {"predicate": {"custom_model_data": 100}, "model": "item/custom/ability/blindness"}
+    ]
+  }
