@@ -33,9 +33,9 @@ jobs:
     - name: Zip Release
       uses: thedoctor0/zip-release@0.7.1
       with:
-        type: 'zip'
-        filename: 'rp.zip'
-        exclusions: '*.git* LICENSE *.zip *.md'
+        type: "zip"
+        filename: "rp.zip"
+        exclusions: "*.git* LICENSE *.zip *.md"
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
