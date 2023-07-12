@@ -1,11 +1,4 @@
 {
-    "lightsabers.strike": {
-        "sounds": [
-            "lightsaber/strike_01",
-            "lightsaber/strike_02"
-        ]
-    },
-
     "lightsabers.move": {
         "sounds": [
             "lightsaber/move_01",
@@ -28,6 +21,11 @@
     "lightsabers.disable": {
         "sounds": [
             "lightsaber/disable"
+        ]
+    },
+    "qwartz.halapeneu": {
+        "sounds": [
+            "entity/player/attack/halapeneu"
         ]
     }
 }
