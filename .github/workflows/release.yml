@@ -24,7 +24,7 @@ jobs:
          pack.mcmeta
         placeholders: |
           %%VERSION%%=${{ steps.vars.outputs.sha_short }}
-    - name: Zip Release
+    - name: Zip Version Release
       uses: thedoctor0/zip-release@0.7.1
       with:
         type: "zip"
