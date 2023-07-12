@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: "contains(github.event.head_commit.message, "release")"
+    if: "contains(github.event.head_commit.message, 'release')"
     steps:
     - uses: actions/checkout@master
     - name: Declare some variables
@@ -27,15 +27,15 @@ jobs:
     - name: Zip Release
       uses: thedoctor0/zip-release@0.7.1
       with:
-        type: "zip"
-        filename: "rp-${{ steps.vars.outputs.sha_short }}.zip"
-        exclusions: "*.git* LICENSE *.md"
+        type: 'zip'
+        filename: 'rp-${{ steps.vars.outputs.sha_short }}.zip'
+        exclusions: '*.git* LICENSE *.md'
     - name: Zip Release
       uses: thedoctor0/zip-release@0.7.1
       with:
-        type: "zip"
-        filename: "rp.zip"
-        exclusions: "*.git* LICENSE *.zip *.md"
+        type: 'zip'
+        filename: 'rp.zip'
+        exclusions: '*.git* LICENSE *.zip *.md'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
