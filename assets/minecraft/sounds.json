@@ -23,7 +23,7 @@
             "lightsaber/disable"
         ]
     },
-    "qwartz.halapeneu": {
+    "lightsaber.qwartz.all": {
         "sounds": [
             "entity/player/attack/halapeneu"
         ]
