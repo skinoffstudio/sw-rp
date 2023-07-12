@@ -13,22 +13,22 @@
 
     "lightsabers.hit": {
         "sounds": [
-            "lightsaber/hit_01"
+            "lightsaber/hit01"
         ]
     },
 
     "lightsabers.crit": {
         "sounds": [
-            "lightsaber/crit_01",
-            "lightsaber/crit_02",
-            "lightsaber/crit_03"
+            "lightsaber/crit01",
+            "lightsaber/crit02",
+            "lightsaber/crit03"
         ]
     },
 
     "lightsabers.move": {
         "sounds": [
-            "lightsaber/move_01",
-            "lightsaber/move_02"
+            "lightsaber/move01",
+            "lightsaber/move02"
         ]
     },
 
