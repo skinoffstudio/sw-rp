@@ -2,6 +2,7 @@
     "providers":
     [
         {"ascent":-32768,"chars":[""],"file":"custom/font/pixel_nosplit.png","height":-3,"type":"bitmap"},
+        {"ascent":-32768,"chars":["ᛄ"],"file":"custom/font/pixel_nosplit.png","height":-15,"type":"bitmap"},
         {"ascent":-32768,"chars":["ᛟ"],"file":"custom/font/pixel_nosplit.png","height":0,"type":"bitmap"},
         {"ascent":-42,"chars":["ᛜ"],"file":"custom/font/hotbar/selector.png","height":24,"type":"bitmap"},
         {"ascent":-43,"chars":["ᛤ"],"file":"custom/font/hotbar/hotbar9.png","height":22,"type":"bitmap"},
