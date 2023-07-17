@@ -1,40 +1,45 @@
 {
     "lightsabers.enable": {
         "sounds": [
-            "lightsaber/enable"
+            "lightsabers/enable"
+        ]
+    },
+
+    "entity.player.attack.crit": {
+        "sounds": [
         ]
     },
 
     "lightsabers.disable": {
         "sounds": [
-            "lightsaber/disable"
+            "lightsabers/disable"
         ]
     },
 
     "lightsabers.hit": {
         "sounds": [
-            "lightsaber/hit01"
+            "lightsabers/hit01"
         ]
     },
 
     "lightsabers.crit": {
         "sounds": [
-            "lightsaber/crit01",
-            "lightsaber/crit02",
-            "lightsaber/crit03"
+            "lightsabers/crit01",
+            "lightsabers/crit02",
+            "lightsabers/crit03"
         ]
     },
 
     "lightsabers.move": {
         "sounds": [
-            "lightsaber/move01",
-            "lightsaber/move02"
+            "lightsabers/move01",
+            "lightsabers/move02"
         ]
     },
 
     "lightsaber.qwartz.common": {
         "sounds": [
-            "lightsaber/qwartz/halapeneu"
+            "lightsabers/qwartz/halapeneu"
         ]
     }
 }
