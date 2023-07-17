@@ -6,28 +6,28 @@
       "ascent": 24,
       "height": 32,
       "chars": ["1"],
-      "file": "font/icons/1.png"
+      "file": "custom:font/icons/1.png"
     },
     {
       "type": "bitmap",
       "ascent": 24,
       "height": 32,
       "chars": ["2"],
-      "file": "font/icons/2.png"
+      "file": "custom:font/icons/2.png"
     },
     {
       "type": "bitmap",
       "ascent": 24,
       "height": 32,
       "chars": ["3"],
-      "file": "font/icons/3.png"
+      "file": "custom:font/icons/3.png"
     },
     {
       "type": "bitmap",
       "ascent": 24,
       "height": 32,
       "chars": ["f"],
-      "file": "font/icons/fight.png"
+      "file": "custom:font/icons/fight.png"
     }
   ]
 }
