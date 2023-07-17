@@ -10,6 +10,6 @@
         {"ascent":-43,"chars":["𐘃"],"file":"custom/font/hotbar/hotbar7.png","height":22,"type":"bitmap"},
         {"ascent":-43,"chars":["ᚠ"],"file":"custom/font/hotbar/hotbar3.png","height":22,"type":"bitmap"},
 
-        {"ascent":0,"chars":["ᚸ"],"file":"custom/font/blackout.png","height":1024,"type":"bitmap"}
+        {"ascent":960,"chars":["ᚸ"],"file":"custom/font/transition.png","height":1920,"type":"bitmap"}
     ]
 }
