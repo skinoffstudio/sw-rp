@@ -1,5 +1,4 @@
 {
-    
     "lightsabers.enable": {
         "sounds": [
             "lightsabers/enable"
@@ -7,8 +6,8 @@
     },
 
     "entity.player.attack.crit": {
-        "sounds": [
-        ]
+        "replace": "true",
+        "sounds": []
     },
 
     "lightsabers.disable": {
