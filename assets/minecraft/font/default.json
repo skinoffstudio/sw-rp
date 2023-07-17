@@ -8,6 +8,8 @@
         {"ascent":-43,"chars":["ᚻ"],"file":"custom/font/hotbar/hotbar9.png","height":22,"type":"bitmap"},
         {"ascent":-43,"chars":["ᛤ"],"file":"custom/font/hotbar/hotbar8.png","height":22,"type":"bitmap"},
         {"ascent":-43,"chars":["𐘃"],"file":"custom/font/hotbar/hotbar7.png","height":22,"type":"bitmap"},
-        {"ascent":-43,"chars":["ᚠ"],"file":"custom/font/hotbar/hotbar3.png","height":22,"type":"bitmap"}
+        {"ascent":-43,"chars":["ᚠ"],"file":"custom/font/hotbar/hotbar3.png","height":22,"type":"bitmap"},
+
+        {"ascent":0,"chars":["ᚸ"],"file":"custom/font/blackout.png","height":1024,"type":"bitmap"}
     ]
 }
