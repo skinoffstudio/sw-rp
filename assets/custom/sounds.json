@@ -1,0 +1,40 @@
+{
+    "lightsabers.enable": {
+        "sounds": [
+            "lightsabers/enable"
+        ]
+    },
+    
+    "lightsabers.disable": {
+        "sounds": [
+            "lightsabers/disable"
+        ]
+    },
+
+    "lightsabers.hit": {
+        "sounds": [
+            "lightsabers/hit1"
+        ]
+    },
+
+    "lightsabers.crit": {
+        "sounds": [
+            "lightsabers/crit1",
+            "lightsabers/crit2",
+            "lightsabers/crit3"
+        ]
+    },
+
+    "lightsabers.move": {
+        "sounds": [
+            "lightsabers/move1",
+            "lightsabers/move2"
+        ]
+    },
+
+    "lightsaber.qwartz.common": {
+        "sounds": [
+            "lightsabers/qwartz/halapeneu"
+        ]
+    }
+}
