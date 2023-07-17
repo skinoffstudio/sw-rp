@@ -1,15 +1,8 @@
 {
     "providers":
     [
-        {"ascent":-32768,"chars":[""],"file":"custom/font/pixel_nosplit.png","height":-3,"type":"bitmap"},
-        {"ascent":-32768,"chars":["ᛟ"],"file":"custom/font/pixel_nosplit.png","height":0,"type":"bitmap"},
-
-        {"ascent":-42,"chars":["ᛜ"],"file":"custom/font/hotbar/selector.png","height":24,"type":"bitmap"},
-        {"ascent":-43,"chars":["ᚻ"],"file":"custom/font/hotbar/hotbar9.png","height":22,"type":"bitmap"},
-        {"ascent":-43,"chars":["ᛤ"],"file":"custom/font/hotbar/hotbar8.png","height":22,"type":"bitmap"},
-        {"ascent":-43,"chars":["𐘃"],"file":"custom/font/hotbar/hotbar7.png","height":22,"type":"bitmap"},
-        {"ascent":-43,"chars":["ᚠ"],"file":"custom/font/hotbar/hotbar3.png","height":22,"type":"bitmap"},
-
-        {"ascent":960,"chars":["ᚸ"],"file":"custom/font/transition.png","height":1920,"type":"bitmap"}
+        {"ascent":-32768,"chars":[""],"file":"font/pixel_nosplit.png","height":-3,"type":"bitmap"},
+        {"ascent":-32768,"chars":["ᛟ"],"file":"font/pixel_nosplit.png","height":0,"type":"bitmap"},
+        {"ascent":960,"chars":["ᚸ"],"file":"font/transition.png","height":1920,"type":"bitmap"}
     ]
 }

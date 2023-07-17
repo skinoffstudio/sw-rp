@@ -1,0 +1,33 @@
+{
+    "providers":
+    [
+      {
+        "type": "bitmap",
+        "ascent": -42,
+        "height": 24,
+        "chars": ["0"],
+        "file": "font/hotbar/selector/selector.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": -43,
+        "height": 22,
+        "chars": ["a"],
+        "file": "font/hotbar/hotbar_creative.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": -43,
+        "height": 22,
+        "chars": ["b"],
+        "file": "font/hotbar/hotbar_combat.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": -43,
+        "height": 22,
+        "chars": ["c"],
+        "file": "font/hotbar/hotbar_confirm.png"
+      }
+    ]
+}
