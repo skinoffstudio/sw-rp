@@ -6,28 +6,28 @@
         "ascent": -42,
         "height": 24,
         "chars": ["0"],
-        "file": "font/hotbar/selector/selector.png"
+        "file": "custom:font/hotbar/selector/selector.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["a"],
-        "file": "font/hotbar/hotbar_default.png"
+        "file": "custom:font/hotbar/hotbar_default.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["b"],
-        "file": "font/hotbar/hotbar_combat.png"
+        "file": "custom:font/hotbar/hotbar_combat.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["c"],
-        "file": "font/hotbar/hotbar_confirm.png"
+        "file": "custom:font/hotbar/hotbar_confirm.png"
       }
     ]
 }
