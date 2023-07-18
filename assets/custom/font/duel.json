@@ -1,33 +1,33 @@
 {
-  "providers":
-  [
-    {
-      "type": "bitmap",
-      "ascent": 24,
-      "height": 32,
-      "chars": ["1"],
-      "file": "custom:font/icons/1.png"
-    },
-    {
-      "type": "bitmap",
-      "ascent": 24,
-      "height": 32,
-      "chars": ["2"],
-      "file": "custom:font/icons/2.png"
-    },
-    {
-      "type": "bitmap",
-      "ascent": 24,
-      "height": 32,
-      "chars": ["3"],
-      "file": "custom:font/icons/3.png"
-    },
-    {
-      "type": "bitmap",
-      "ascent": 24,
-      "height": 32,
-      "chars": ["f"],
-      "file": "custom:font/icons/fight.png"
-    }
-  ]
+    "providers":
+    [
+      {
+        "type": "bitmap",
+        "ascent": 24,
+        "height": 32,
+        "chars": ["1"],
+        "file": "custom:font/icons/1.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": 24,
+        "height": 32,
+        "chars": ["2"],
+        "file": "custom:font/icons/2.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": 24,
+        "height": 32,
+        "chars": ["3"],
+        "file": "custom:font/icons/3.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": 24,
+        "height": 32,
+        "chars": ["f"],
+        "file": "custom:font/icons/fight.png"
+      }
+    ]
 }
