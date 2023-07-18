@@ -2,7 +2,7 @@
 	"credit": "By Cheharka",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "minecraft:item/custom/lightsaber/windu_lightsaber"
+		"1": "custom:item/lightsaber/windu_lightsaber"
 	},
 	"elements": [
 		{

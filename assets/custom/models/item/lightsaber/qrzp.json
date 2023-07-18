@@ -2,7 +2,7 @@
 	"credit": "By Cheharka",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/custom/lightsaber/qrzp"
+		"0": "custom:item/lightsaber/qrzp"
 	},
 	"elements": [
 		{

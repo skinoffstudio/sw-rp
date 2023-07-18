@@ -1,6 +1,0 @@
-{
-    "parent": "item/custom/generated_ability",
-    "textures": {
-      "layer0": "item/custom/ability/choke"
-    }
-}

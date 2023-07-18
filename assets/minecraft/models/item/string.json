@@ -5,6 +5,6 @@
     },
   
     "overrides": [
-      {"predicate": {"custom_model_data": 100}, "model": "item/custom/ability/pull"}
+      {"predicate": {"custom_model_data": 100}, "model": "custom:item/ability/pull"}
     ]
   }

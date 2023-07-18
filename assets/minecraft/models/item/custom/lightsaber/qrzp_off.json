@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/custom/lightsaber/qrzp",
-  "textures": {
-    "0": "minecraft:item/custom/lightsaber/qrzp_off"
-  }
-}

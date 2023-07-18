@@ -1,0 +1,6 @@
+{
+  "parent": "custom:item/lightsaber/qrzp",
+  "textures": {
+    "0": "custom:item/lightsaber/qrzp_off"
+  }
+}

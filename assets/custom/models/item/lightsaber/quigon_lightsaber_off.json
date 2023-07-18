@@ -1,0 +1,6 @@
+{
+  "parent": "custom:item/lightsaber/quigon_lightsaber",
+  "textures": {
+    "1": "custom:item/lightsaber/quigon_lightsaber_off"
+  }
+}
