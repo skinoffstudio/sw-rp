@@ -1,6 +1,6 @@
 {
     "parent": "custom:item/generated_ability",
     "textures": {
-      "layer0": "custom:item/passibveability/double_jump"
+      "layer0": "custom:item/passiveability/double_jump"
     }
 }

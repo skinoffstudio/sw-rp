@@ -1,6 +1,6 @@
 {
     "parent": "custom:item/generated_ability",
     "textures": {
-      "layer0": "custom:item/passibveability/regeneration"
+      "layer0": "custom:item/passiveability/regeneration"
     }
 }
