@@ -1,0 +1,32 @@
+{
+  "parent": "custom:item/lightsaber/quigon_lightsaber",
+  "display": {
+		"thirdperson_righthand": {
+			"rotation": [13.42, 2.69, 37.98],
+			"translation": [-1, -0.25, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 41],
+			"translation": [0, 3.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, -8.5]
+		},
+		"gui": {
+			"rotation": [-28, -23, -41],
+			"translation": [-2.75, -5, 0],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"fixed": {
+			"rotation": [75, 8, 0],
+			"translation": [-0.5, -1.5, -28.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -7,9 +7,14 @@
   "overrides": [
     {"predicate": {"custom_model_data":100}, "model": "custom:item/lightsaber/windu_lightsaber_off"},
     {"predicate": {"custom_model_data":101}, "model": "custom:item/lightsaber/windu_lightsaber"},
-    {"predicate": {"custom_model_data":102}, "model": "custom:item/lightsaber/quigon_lightsaber_off"},
-    {"predicate": {"custom_model_data":103}, "model": "custom:item/lightsaber/quigon_lightsaber"},
+    {"predicate": {"custom_model_data":102}, "model": "custom:item/lightsaber/windu_lightsaber_blocking"},
+    
+    {"predicate": {"custom_model_data":110}, "model": "custom:item/lightsaber/quigon_lightsaber_off"},
+    {"predicate": {"custom_model_data":111}, "model": "custom:item/lightsaber/quigon_lightsaber"},
+    {"predicate": {"custom_model_data":112}, "model": "custom:item/lightsaber/quigon_lightsaber_blocking"},
+    
     {"predicate": {"custom_model_data":777}, "model": "custom:item/lightsaber/qrzp_off"},
-    {"predicate": {"custom_model_data":778}, "model": "custom:item/lightsaber/qrzp"}
+    {"predicate": {"custom_model_data":778}, "model": "custom:item/lightsaber/qrzp"},
+    {"predicate": {"custom_model_data":779}, "model": "custom:item/lightsaber/qrzp_blocking"}
   ]
 }
