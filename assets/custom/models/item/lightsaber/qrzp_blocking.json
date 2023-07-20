@@ -1,5 +1,6 @@
 {
   "parent": "custom:item/lightsaber/qrzp",
+  "credit": "кварц говно",
   "display": {
 		"thirdperson_righthand": {
 			"rotation": [-90, 0, 90],
