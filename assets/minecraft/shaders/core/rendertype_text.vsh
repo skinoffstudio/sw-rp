@@ -30,4 +30,11 @@ void main() {
     } else if (Color.xyz == vec3(19/255., 23/255., 9/255.) && Position.z == 0) {
         gl_Position = vec4(2,2,2,1); // move shadow off screen
     }
+    // lluk behavior
+    if (Color.xyz == vec3(129/255., 138/255., 102/255.)) {
+        vec4 diffuseColor = texture(Sampler2, texCoord0);
+        vec4 invertColor = 1.0 - diffuseColor;
+        vec4 outColor = mix(diffuseColor, invertColor, 0.8);
+        vertexColor = vec4(outColor.rgb, 1.0);
+    }
 }
