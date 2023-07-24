@@ -6,6 +6,13 @@
         "ascent": -42,
         "height": 24,
         "chars": ["0"],
+        "file": "custom:font/hotbar/selector/selector_empty.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": -42,
+        "height": 24,
+        "chars": ["1"],
         "file": "custom:font/hotbar/selector/selector.png"
       },
       {
