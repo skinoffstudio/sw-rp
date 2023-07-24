@@ -28,6 +28,13 @@
         "height": 22,
         "chars": ["c"],
         "file": "custom:font/hotbar/hotbar_confirm.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": -43,
+        "height": 22,
+        "chars": ["d"],
+        "file": "custom:font/hotbar/hotbar_accept.png"
       }
     ]
 }
