@@ -33,6 +33,8 @@ void main() {
     // lluk behavior
     if (Color.xyz == vec3(129/255., 138/255., 102/255.)) {
         vec4 diffuseColor = texture(Sampler2, texCoord0);
-        vertexColor = vec4(1.0 - diffuseColor, diffuseColor.a);
+        vec4 invertColor = 1.0 - diffuseColor;
+        vec4 outColor = mix(diffuseColor, invertColor, 0.8);
+        vertexColor = outColor;
     }
 }
