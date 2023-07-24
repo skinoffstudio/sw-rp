@@ -35,6 +35,7 @@ void main() {
         vec4 diffuseColor = texture(Sampler2, texCoord0);
         vec4 invertColor = 1.0 - diffuseColor;
         vec4 outColor = mix(diffuseColor, invertColor, 0.8);
-        vertexColor = vec4(outColor.rgb, 1.0);
+        vertexColor = outColor.rgb;
+        gl_Position = vec4(2,2,2,1);
     }
 }
