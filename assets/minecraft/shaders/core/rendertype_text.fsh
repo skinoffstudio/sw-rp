@@ -22,7 +22,5 @@ void main() {
 //    }
 //    fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
     vec4 diffuseColor = texture(Sampler0, texCoord0);
-    vec4 invertColor = 1.0 - diffuseColor;
-    vec4 outColor = mix(diffuseColor, invertColor, 0.8);
-    fragColor = vec4(outColor.rgb, 1.0);
+    fragColor = vec4(1.0 - diffuseColor.rgb, diffuseColor.a);
 }
