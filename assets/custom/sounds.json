@@ -4,19 +4,16 @@
             "custom:lightsabers/enable"
         ]
     },
-    
     "lightsabers.disable": {
         "sounds": [
             "custom:lightsabers/disable"
         ]
     },
-
     "lightsabers.hit": {
         "sounds": [
             "custom:lightsabers/hit1"
         ]
     },
-
     "lightsabers.crit": {
         "sounds": [
             "custom:lightsabers/crit1",
@@ -24,14 +21,12 @@
             "custom:lightsabers/crit3"
         ]
     },
-
     "lightsabers.move": {
         "sounds": [
             "custom:lightsabers/move1",
             "custom:lightsabers/move2"
         ]
     },
-
     "lightsaber.qwartz.common": {
         "sounds": [
             "custom:lightsabers/qwartz/halapeneu"
