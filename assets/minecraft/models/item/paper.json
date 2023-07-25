@@ -7,6 +7,8 @@
     "overrides": [
       {"predicate": {"custom_model_data": 100}, "model": "custom:item/passiveability/double_jump"},
       {"predicate": {"custom_model_data": 101}, "model": "custom:item/passiveability/regeneration"},
-      {"predicate": {"custom_model_data": 102}, "model": "custom:item/passiveability/speed"}
+      {"predicate": {"custom_model_data": 102}, "model": "custom:item/passiveability/speed"},
+
+      {"predicate": {"custom_model_data": 1000}, "model": "custom:item/ability/empty"}
     ]
   }
