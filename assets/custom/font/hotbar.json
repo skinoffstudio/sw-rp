@@ -6,49 +6,49 @@
         "ascent": -42,
         "height": 24,
         "chars": ["0"],
-        "file": "custom:font/hotbar/selector/selector_empty.png"
+        "file": "custom:gui/hotbar/selector/selector_empty.png"
       },
       {
         "type": "bitmap",
         "ascent": -42,
         "height": 24,
         "chars": ["1"],
-        "file": "custom:font/hotbar/selector/selector.png"
+        "file": "custom:gui/hotbar/selector/selector.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["a"],
-        "file": "custom:font/hotbar/hotbar_default.png"
+        "file": "custom:gui/hotbar/hotbar_default.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["b"],
-        "file": "custom:font/hotbar/hotbar_combat.png"
+        "file": "custom:gui/hotbar/hotbar_combat.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["c"],
-        "file": "custom:font/hotbar/hotbar_confirm.png"
+        "file": "custom:gui/hotbar/hotbar_confirm.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["d"],
-        "file": "custom:font/hotbar/hotbar_accept.png"
+        "file": "custom:gui/hotbar/hotbar_accept.png"
       },
       {
         "type": "bitmap",
         "ascent": -43,
         "height": 22,
         "chars": ["e"],
-        "file": "custom:font/hotbar/hotbar_empty.png"
+        "file": "custom:gui/hotbar/hotbar_empty.png"
       }
     ]
 }

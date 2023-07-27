@@ -1,0 +1,6 @@
+{
+    "parent": "custom:item/generated_button",
+    "textures": {
+      "texture": "custom:item/buttons/arrow_right"
+    }
+}
