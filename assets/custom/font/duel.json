@@ -4,29 +4,9 @@
       {
         "type": "bitmap",
         "ascent": 24,
-<<<<<<< HEAD
-        "height": 32,
-        "chars": ["1"],
-        "file": "custom:gui/icons/1.png"
-      },
-      {
-        "type": "bitmap",
-        "ascent": 24,
-        "height": 32,
-        "chars": ["2"],
-        "file": "custom:gui/icons/2.png"
-      },
-      {
-        "type": "bitmap",
-        "ascent": 24,
-        "height": 32,
-        "chars": ["3"],
-        "file": "custom:gui/icons/3.png"
-=======
         "height": 20,
         "chars": ["123"],
         "file": "custom:font/icons/numbers.png"
->>>>>>> aafeb601ec78caa7a602e918881629deafca618f
       },
       {
         "type": "bitmap",
