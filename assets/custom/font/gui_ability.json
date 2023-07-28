@@ -3,8 +3,8 @@
     [
       {
         "type": "bitmap",
-        "ascent": 0,
-        "height": 16,
+        "ascent": 16,
+        "height": 222,
         "chars": ["1"],
         "file": "custom:gui/container/ability/abilities.png"
       },
@@ -17,8 +17,8 @@
       },
       {
         "type": "bitmap",
-        "ascent": 0,
-        "height": 16,
+        "ascent": 16,
+        "height": 222,
         "chars": ["3"],
         "file": "custom:gui/container/ability/saved.png"
       }
