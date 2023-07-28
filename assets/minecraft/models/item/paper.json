@@ -19,6 +19,6 @@
       {"predicate": {"custom_model_data": 307}, "model": "custom:item/buttons/follow"},
       {"predicate": {"custom_model_data": 308}, "model": "custom:item/buttons/follow_locked"},
 
-      {"predicate": {"custom_model_data": 1000}, "model": "custom:item/ability/empty"}
+      {"predicate": {"custom_model_data": 1000}, "model": "custom:item/buttons/empty"}
     ]
   }
