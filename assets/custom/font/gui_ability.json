@@ -1,0 +1,26 @@
+{
+    "providers":
+    [
+      {
+        "type": "bitmap",
+        "ascent": 0,
+        "height": 222,
+        "chars": ["1"],
+        "file": "custom:gui/container/ability/abilities.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": 0,
+        "height": 222,
+        "chars": ["2"],
+        "file": "custom:gui/container/ability/passieveabilities.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": 0,
+        "height": 222,
+        "chars": ["3"],
+        "file": "custom:gui/container/ability/saved.png"
+      }
+    ]
+}
