@@ -13,14 +13,16 @@
       {"predicate": {"custom_model_data": 301}, "model": "custom:item/buttons/arrow_left_locked"},
       {"predicate": {"custom_model_data": 302}, "model": "custom:item/buttons/arrow_right"},
       {"predicate": {"custom_model_data": 303}, "model": "custom:item/buttons/arrow_right_locked"},
-      {"predicate": {"custom_model_data": 304}, "model": "custom:item/buttons/import"},
-      {"predicate": {"custom_model_data": 305}, "model": "custom:item/buttons/export"},
-      {"predicate": {"custom_model_data": 306}, "model": "custom:item/buttons/export_locked"},
-      {"predicate": {"custom_model_data": 307}, "model": "custom:item/buttons/follow"},
-      {"predicate": {"custom_model_data": 308}, "model": "custom:item/buttons/followed"},
-      {"predicate": {"custom_model_data": 309}, "model": "custom:item/buttons/add_ability"},
-      {"predicate": {"custom_model_data": 310}, "model": "custom:item/buttons/follow_locked"},
 
-      {"predicate": {"custom_model_data": 1000}, "model": "custom:item/buttons/empty"}
+      {"predicate": {"custom_model_data": 304}, "model": "custom:item/buttons/import"},
+      {"predicate": {"custom_model_data": 305}, "model": "custom:item/buttons/import_locked"},
+      {"predicate": {"custom_model_data": 306}, "model": "custom:item/buttons/export"},
+      {"predicate": {"custom_model_data": 307}, "model": "custom:item/buttons/export_locked"},
+      {"predicate": {"custom_model_data": 308}, "model": "custom:item/buttons/follow"},
+      {"predicate": {"custom_model_data": 309}, "model": "custom:item/buttons/follow_locked"},
+      {"predicate": {"custom_model_data": 310}, "model": "custom:item/buttons/followed"},
+
+      {"predicate": {"custom_model_data": 1000}, "model": "custom:item/buttons/empty"},
+      {"predicate": {"custom_model_data": 1001}, "model": "custom:item/buttons/add_ability"}
     ]
   }
