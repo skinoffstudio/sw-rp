@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "texture": "custom:item/buttons/empty"
+    }
+}

@@ -20,6 +20,6 @@
       {"predicate": {"custom_model_data": 308}, "model": "custom:item/buttons/follow_locked"},
       {"predicate": {"custom_model_data": 309}, "model": "custom:item/buttons/add_ability"},
 
-      {"predicate": {"custom_model_data": 1000}, "model": "custom:item/ability/empty"}
+      {"predicate": {"custom_model_data": 1000}, "model": "custom:item/buttons/empty"}
     ]
   }
