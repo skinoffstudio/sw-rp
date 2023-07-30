@@ -5,22 +5,28 @@
         "type": "bitmap",
         "ascent": 14,
         "height": 222,
-        "chars": ["1"],
+        "chars": ["a"],
         "file": "custom:gui/container/ability/abilities.png"
       },
       {
         "type": "bitmap",
         "ascent": 14,
         "height": 222,
-        "chars": ["2"],
+        "chars": ["b"],
         "file": "custom:gui/container/ability/passieveabilities.png"
       },
       {
         "type": "bitmap",
         "ascent": 14,
         "height": 222,
-        "chars": ["3"],
+        "chars": ["c"],
         "file": "custom:gui/container/ability/saved.png"
+      },
+      {
+        "type": "bitmap",
+        "ascent": -64,
+        "chars": ["0123456789"],
+        "file": "custom:font/numbers.png"
       }
     ]
 }
