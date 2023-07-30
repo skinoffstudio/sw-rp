@@ -24,7 +24,7 @@
       },
       {
         "type": "bitmap",
-        "ascent": -64,
+        "ascent": -72,
         "chars": ["0123456789"],
         "file": "custom:font/numbers.png"
       }
