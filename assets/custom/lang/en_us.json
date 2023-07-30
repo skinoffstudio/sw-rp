@@ -36,9 +36,9 @@
   "gui.ability.button.presets": "Saved Presets",
   "gui.ability.button.follow": "Follow",
   "gui.ability.button.unfollow": "Unfollow",
-  "gui.ability.button.use": "Use Preset",
-  "gui.ability.button.save": "Save Preset",
+  "gui.ability.button.use": "Load",
+  "gui.ability.button.save": "Save",
 
-  "game.duel.won": "You've won!",
-  "game.duel.lost": "You've lost"
+  "game.duel.won": "Won!",
+  "game.duel.lost": "Defeat"
 }
