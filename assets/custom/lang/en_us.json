@@ -3,6 +3,7 @@
   "lightsaber.qwartz.name": "Qwartz Lightsaber",
   "lightsaber.windu.name": "Windu Lightsaber",
 
+  "ability.common.force_points": "Force Points",
   "ability.blindness.name": "Blindness",
   "ability.blindness.description": "...",
   "ability.dash.name": "Dash",
