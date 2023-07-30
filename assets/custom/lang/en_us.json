@@ -1,5 +1,44 @@
 {
   "lightsaber.quigon.name": "Quigon Lightsaber",
   "lightsaber.qwartz.name": "Qwartz Lightsaber",
-  "lightsaber.windu.name": "Windu Lightsaber"
+  "lightsaber.windu.name": "Windu Lightsaber",
+
+  "ability.blindness.name": "Blindness",
+  "ability.blindness.description": "...",
+  "ability.dash.name": "Dash",
+  "ability.dash.description": "...",
+  "ability.drop.name": "Drop",
+  "ability.drop.description": "...",
+  "ability.jump.name": "Jump",
+  "ability.jump.description": "...",
+  "ability.pull.name": "Pull",
+  "ability.pull.description": "...",
+  "ability.push.name": "Push",
+  "ability.push.description": "...",
+  "ability.pyrokinesis.name": "Pyrokinesis",
+  "ability.pyrokinesis.description": "...",
+  "ability.throw_sword.name": "Throw Sword",
+  "ability.throw_sword.description": "...",
+
+  "passiveability.double_jump.name": "Double Jump",
+  "passiveability.double_jump.description": "...",
+  "passiveability.regeneration.name": "Regeneration",
+  "passiveability.regeneration.description": "...",
+  "passiveability.speed.name": "Speed",
+  "passiveability.speed.description": "...",
+
+  "gui.common.button.next": "Next",
+  "gui.common.button.previous": "Previous",
+  "gui.common.button.confirm": "Confirm",
+
+  "gui.ability.button.abilities": "Abilities",
+  "gui.ability.button.passive_abilities": "Passive Abilities",
+  "gui.ability.button.presets": "Saved Presets",
+  "gui.ability.button.follow": "Follow",
+  "gui.ability.button.unfollow": "Unfollow",
+  "gui.ability.button.use": "Use Preset",
+  "gui.ability.button.save": "Save Preset",
+
+  "game.duel.won": "You've won!",
+  "game.duel.lost": "You've lost"
 }
