@@ -27,30 +27,35 @@
     {
       "type": "bitmap",
       "ascent": 4,
+      "height": 14,
       "chars": ["ᚽ"],
       "file": "custom:gui/bossbar/background_center_1.png"
     },
     {
       "type": "bitmap",
       "ascent": 4,
+      "height": 14,
       "chars": ["ᚼ"],
       "file": "custom:gui/bossbar/background_center_16.png"
     },
     {
       "type": "bitmap",
       "ascent": 4,
+      "height": 14,
       "chars": ["ᛄ"],
       "file": "custom:gui/bossbar/background_center_32.png"
     },
     {
       "type": "bitmap",
       "ascent": 4,
+      "height": 14,
       "chars": ["ᛌ"],
       "file": "custom:gui/bossbar/background_end.png"
     },
     {
       "type": "bitmap",
       "ascent": 3,
+      "height": 10,
       "chars": ["ᛜ"],
       "file": "custom:gui/bossbar/clock_icon.png"
     }
