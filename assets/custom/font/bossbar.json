@@ -1,0 +1,19 @@
+{
+  "providers":
+  [
+    {
+      "type": "bitmap",
+      "ascent": -4,
+      "height": 6,
+      "chars": [
+        " !\"#$%&'()*+,-./",
+        "0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNO",
+        "PQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmno",
+        "pqrstuvwxyz{|}~ "
+      ],
+      "file": "custom:gui/icons/blocking.png"
+    }
+  ]
+}
