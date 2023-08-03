@@ -3,7 +3,7 @@
   [
     {
       "type": "bitmap",
-      "ascent": 2,
+      "ascent": 4,
       "chars": [
         "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
         "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
@@ -26,38 +26,41 @@
     },
     {
       "type": "bitmap",
-      "ascent": 4,
-      "height": 14,
+      "ascent": 8,
+      "height": 15,
       "chars": ["ᚽ"],
       "file": "custom:gui/bossbar/background_center_1.png"
     },
     {
       "type": "bitmap",
-      "ascent": 4,
-      "height": 14,
+      "ascent": 8,
+      "height": 15,
       "chars": ["ᚼ"],
       "file": "custom:gui/bossbar/background_center_16.png"
     },
     {
       "type": "bitmap",
-      "ascent": 4,
-      "height": 14,
+      "ascent": 8,
+      "height": 15,
       "chars": ["ᛄ"],
       "file": "custom:gui/bossbar/background_center_32.png"
     },
     {
       "type": "bitmap",
-      "ascent": 4,
-      "height": 14,
+      "ascent": 8,
+      "height": 15,
       "chars": ["ᛌ"],
       "file": "custom:gui/bossbar/background_end.png"
     },
     {
       "type": "bitmap",
-      "ascent": 3,
-      "height": 10,
+      "ascent": 5,
       "chars": ["ᛜ"],
-      "file": "custom:gui/bossbar/clock_icon.png"
+      "file": "custom:gui/icons/clock.png"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
     }
   ]
 }
