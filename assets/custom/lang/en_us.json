@@ -27,6 +27,8 @@
   "passiveability.regeneration.description": "...",
   "passiveability.speed.name": "Speed",
   "passiveability.speed.description": "...",
+  "passiveability.vampire.name": "Vampire",
+  "passiveability.vampire.description": "...",
 
   "gui.common.button.next": "Next",
   "gui.common.button.previous": "Previous",

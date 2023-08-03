@@ -8,6 +8,7 @@
       {"predicate": {"custom_model_data": 100}, "model": "custom:item/passiveability/double_jump"},
       {"predicate": {"custom_model_data": 101}, "model": "custom:item/passiveability/regeneration"},
       {"predicate": {"custom_model_data": 102}, "model": "custom:item/passiveability/speed"},
+      {"predicate": {"custom_model_data": 104}, "model": "custom:item/passiveability/vampire"},
       
       {"predicate": {"custom_model_data": 300}, "model": "custom:item/buttons/arrow_left"},
       {"predicate": {"custom_model_data": 301}, "model": "custom:item/buttons/arrow_left_locked"},

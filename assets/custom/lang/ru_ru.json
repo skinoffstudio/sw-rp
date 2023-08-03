@@ -27,6 +27,8 @@
   "passiveability.regeneration.description": "...",
   "passiveability.speed.name": "Скорость",
   "passiveability.speed.description": "...",
+  "passiveability.vampire.name": "Вампиризм",
+  "passiveability.vampire.description": "...",
 
   "gui.common.button.next": "Следующая",
   "gui.common.button.previous": "Предыдущая",
