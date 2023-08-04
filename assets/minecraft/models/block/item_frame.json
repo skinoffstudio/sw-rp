@@ -1,12 +1,10 @@
 {
-	"__comment": "Designed by KoolCatTV with Cubik Studio - https://cubik.studio",
 	"textures": {
 		"particle": "blocks/item_frame",
 		"texture": "blocks/item_frame"
 	},
 	"elements": [ 	 
 		{
-			"__comment": "Box1",
 			"from": [ -2, -16, -2 ],
 			"to": [ -1, -15.999, -1.999 ],
 			"faces": {
