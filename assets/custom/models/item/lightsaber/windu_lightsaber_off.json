@@ -1,6 +1,6 @@
 {
   "parent": "custom:item/lightsaber/windu_lightsaber",
   "textures": {
-    "1": "custom:item/lightsaber/windu_lightsaber_off"
+    "texture": "custom:item/lightsaber/windu_lightsaber_off"
   }
 }
